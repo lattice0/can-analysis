@@ -30,7 +30,7 @@ while 1:
             known.append(id)
             f.write(id+"\n")  # python will convert \n to os.linesep
     else:
-        line
+        print(line)
 
 f.close()  # you can omit in most cases as the destructor will call it
 ser.close()
