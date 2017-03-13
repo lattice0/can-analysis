@@ -19,6 +19,9 @@ while 1:
             data = data.split(' ')
             if id in ids:
                 print(line)
+            print('id not:'+id)
+            print('id type:'+type(id))
+            print('ids:'+str(ids))
         except:
             #f.write("ERROR: " + str(line))
             print("ERROR: " + str(line))
