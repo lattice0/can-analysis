@@ -6,8 +6,8 @@ import threading
 ser = serial.Serial('/dev/ttyACM0', 115200)
 known = []
 f = open('trace.txt', 'w')
-id_ = True
-line_ = False
+id_ = False
+line_ = True
 
 def write_break_line():
     while True:
